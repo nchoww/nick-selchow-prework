@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #00BBCC;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+p {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+#top_line {
+	margin-top: 0em;
+}
+
+#middle_section {
+	top: 45%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+
+}
+
+#line_one {
+	color: black;
+	font-weight: normal;
+}
+
+#line_two {
+	font-size: 78px;
+}
+
+#line_three {
+	border: 2px;
+	border-style: solid;
+	border-color: white;
+	padding: 8px;
+	display: inline;
+}
