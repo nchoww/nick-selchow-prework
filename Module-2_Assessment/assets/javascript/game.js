@@ -5,7 +5,14 @@ const remainingGuessesElement = document.querySelector('#remaining-guesses');
 const lettersGuessedElement = document.querySelector('#letters-guessed');
 
 // Array containing possible word selections
-const wordChoices = ['mercury', 'venus', 'earth', 'mars'];
+const wordChoices = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 
+                     'saturn', 'uranus', 'neptune', 'pluto', 'sun',];
+
+// Shuffle the array so each game is different
+for (let i = wordChoices.length - 1; i > 0; i--) {
+	let j = Math.floor(Math.random() * (i + 1));
+	[wordChoices[i], wordChoices[j]] = [wordChoices[j], wordChoices[i]];
+}
 
 remainingGuessesElement.innerText = '0';
 winNumberElement.innerText = '0';
