@@ -10,8 +10,49 @@ body {
 	background-size: cover;
 }
 
+.header-mod {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	margin-top: 2vh;
+}
+
+.hr-new {
+	border-color: #4aaaa5;
+	background-color: #4aaaa5;
+	margin-bottom: 4vh;
+}
+
+.img-mod {
+	width: 100%;
+	max-height: 50%;
+}
+
 .center-section {
 	margin-top: 5vh;
+	margin-bottom: 5vh;
+	border: 2px solid;
+	border-color: #dddddd;
+}
+
+.tt {
+	margin-bottom: 2vh;
+}
+
+p {
+	line-height: 2.5;
+}
+
+.navbar {
+	/*border: 2px solid;
+	border-color: #cccccc;*/
+}
+
+#name-mod {
+	width: 100%;
+	font-weight: bold;
+	background-color: #bbbbbb;
+
 }
 
 .bg-white {
@@ -23,7 +64,13 @@ body {
 }
 
 .bg-footer {
-	background: #555;
+	background: #666666;
+	color: white;
+	padding: 1vh;
+	font-size: 12px;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: #999999;
 }
 
 
