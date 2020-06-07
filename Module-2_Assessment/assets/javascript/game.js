@@ -6,7 +6,9 @@ const lettersGuessedElement = document.querySelector('#letters-guessed');
 
 // Array containing possible word selections
 const wordChoices = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 
-                     'saturn', 'uranus', 'neptune', 'pluto', 'sun',];
+                     'saturn', 'uranus', 'neptune', 'pluto', 'sun',
+					 'moon', 'ceres', 'titan', 'europa', 'vesta',
+					 'pallas', 'eris',];
 
 // Shuffle the array so each game is different
 for (let i = wordChoices.length - 1; i > 0; i--) {
