@@ -54,8 +54,8 @@ const gameObject = {
 		}
 		
 		this.lettersGuessed.push(letter);
-		lettersGuessedElement.innerText = this.lettersGuessed;
-		//lettersGuessedElement.innerText = this.lettersGuessed.join(' ');
+		//lettersGuessedElement.innerText = this.lettersGuessed;
+		lettersGuessedElement.innerText = this.lettersGuessed.join(' ');
 
 		for (let i = 0; i < this.wordProgress.length; i++) {
 			if (this.currentWord()[i] === letter) {
