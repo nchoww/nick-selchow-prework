@@ -13,29 +13,40 @@
 
 <body>
 
-  <div class=container>
+  <nav class="navbar navbar-expand-md navbar-light justify-content-center">
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
-
-      <a href="/" class="navbar-brand d-flex w-50 mr-auto">Nick Selchow</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse w-100">
-        <ul class="navbar-nav w-100 ml-auto justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    <div class="container">
+      <div class="row bg-white nav-border">
+  
+        <div class="col-md-6">
+          <span id="name-mod">Nick Selchow</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+  
+        <div class="col-md-6">
+          <div class="collapse navbar-collapse w-100">
+            <ul class="navbar-nav w-100 ml-auto justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        </div>
       </div>
-    </nav>
+  
+  </nav>
+
+  <div class="container">
 
     <div class="row bg-white center-section"><div class="col-md-12">
 
@@ -57,7 +68,7 @@
           </div>
           <div class="form-group">
             <label for="messageArea">Message</label>
-            <textarea class="form-control" rows="6"></textarea>
+            <textarea class="form-control" rows="8"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
