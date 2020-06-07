@@ -5,6 +5,10 @@ body {
 	font-weight: bold;
 }
 
+.par {
+	margin: 4vh;
+}
+
 .black-font {
 	color: black;
 }
@@ -19,4 +23,8 @@ body {
 	border-color: white;
 	padding: 6px;
 	display: inline;
+}
+
+.center-section {
+	height: 80vh;
 }
