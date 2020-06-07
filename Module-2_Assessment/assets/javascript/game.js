@@ -99,10 +99,10 @@ const keyPressed = function (event) {
 	if (!gameObject.gameInProgress) {
 		gameObject.start();
 	} else {
-		const key = event.key;
-		// TODO check if key pressed is a letter
-		if (key) {
-			gameObject.guessLetter(key);
+		const keyNum = event.which;
+		// check if key pressed is a letter, ignore if not
+		if (keyNum >= 65 && keyNum <= 90) {
+			gameObject.guessLetter(event.key.toLowerCase());
 		}
 	}
 }
